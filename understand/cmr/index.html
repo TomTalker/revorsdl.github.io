@@ -1,10 +1,17 @@
 <!DOCTYPE HTML>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<title>pls understand</title>
+<title>CMRs</title>
 <style>@font-face {font-family: 'regular';src: url("https://tomtalker.github.io/rolling-sky-stuff/assets/Sen-Bold.ttf");}*{font-family:regular !important;}</style>
 <body style="padding: 10pt 30pt;">
 <br/>
 
-<p align="left" style="line-height: 100%"></p><a target="_blank"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">So what is a CMR file?</span></font></a>
-
 A CMR stands for "Cheetah Mobile Resource".
+Many would mistake it for being a custom file type but that would be wrong.
+A CMR is a ZLIB image that is compressed and upside-down.
+  
+The process goes like this:
+Regular image file (ex. PNG, JPG, etc.) gets flipped upside down.
+That image is then converted into an RGBA file.
+That RGBA file is then compressed and turned into a ZLIB file.
+That ZLIB file is renamed to ".cmr".
+The file is ready to be used in-game.
