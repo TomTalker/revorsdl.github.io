@@ -1,1 +1,63 @@
+<!DOCTYPE HTML>
+<head><meta name="pagename" content="Adding complexity to your edited APK"><meta name="description" content="A nice guide to help you advance your edited Rolling Sky APKs (post 1.9.7.3).">
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>Adding complexity to APK editing</title>
+<style>@font-face {font-family: 'regular';src: url("https://tomtalker.github.io/rolling-sky-stuff/assets/Sen-Bold.ttf");}*{font-family:regular !important;}</style>
+<style>*{scroll-behavior:smooth;scroll-margin-top:30pt;}</style>
+<body style="padding: 10pt 30pt;">
+</head>
+<br/>
+
+</p>
+<p align="center"><font size="5" style="font-size: 20pt"><b>Editing in a more complex way</b></font></p>
+<p align="center"><font size="5" style="font-size: 20pt"><b>(Android)</b></font></p>
+<p align="center"><br/>
+<br/>
+
+</p>
+<p align="left"><font size="4" style="font-size: 15pt"><b>Sections:</b></font></p>
+<p align="left"><a target="_self" href="https://tomtalker.github.io/rolling-sky-stuff/androidediting/addingcomplexity/#loadingmessage"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">I: Understanding item IDs</span></font></a></p>
+<p align="left"><a target="_self" href="https://tomtalker.github.io/rolling-sky-stuff/androidediting/addingcomplexity/#changelevelorder"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">VIII: Custom end</span></font></a></p>
+<p align="left"><a target="_self" href="https://tomtalker.github.io/rolling-sky-stuff/androidediting/addingcomplexity/#custommenu"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">IX: Changing midgrounds</span></font></a></p>
+<p align="left"><a target="_self" href="https://tomtalker.github.io/rolling-sky-stuff/androidediting/addingcomplexity/#changinglevelname"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">X: Changing theme colors and ui colors</span></font></a></p>
+<p align="left"><a target="_self" href="https://tomtalker.github.io/rolling-sky-stuff/androidediting/addingcomplexity/#otherstuff"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">XI: Dependent Objects</span></font></a></p>
+<p align="left"><br/>
+<br/>
+
+</p>
+<p align="left" style="line-height: 100%"><font size="4" style="font-size: 15pt"><b>Requirements:</b></font></p>
+<p align="left" style="line-height: 100%"><a target="_blank"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Rolling
+Sky (1.9.7.3 or under)</span></font></a></p>
+<p align="left" style="line-height: 100%"><a target="_blank" href="https://notepad-plus-plus.org/"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Notepad
+++</span></font></a></p>
+<p align="left" style="line-height: 100%"><a target="_blank" href="https://github.com/SeriousCache/UABE/releases/"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">UABE</span></font></a></p>
+<p align="left" style="line-height: 100%"><a target="_blank" href="https://github.com/dnSpy/dnSpy/releases/"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">dnSpy</span></font></a></p>
+<p align="left" style="line-height: 100%"><a target="_blank" href="https://unity3d.com/get-unity/download/archive"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Unity
+2019 or under</span></font></a></p>
+<p align="left" style="line-height: 100%"><br/>
+<br/>
+
+</p>
+<p id="loadingmessage" align="left" style="line-height: 100%"><font size="4" style="font-size: 15pt"><b>Loading Message (Easy)</b></font></p>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western" style="font-weight: normal"><font size="4" style="font-size: 14pt">With dnSpy:</font></h3>
+<h3 class="western" align="left" style="font-weight: normal; line-height: 100%">
+<br/>
+  Open up your APK's "Assembly-CSharp.dll" (found in [APK]/assets/bin/Data/Managed/)
+    <br/>
+  Search "LoadingViewModule"
+    <br/>
+  Scroll down until you find two loading screen messages
+    <br/>
+  The one labelled CN is the Chinese loading message and the EN is, of course, English
+    <br/>
+  Edit it to whatever you want it to be [EX: "Loading..." to "Hello World"]
+    <br/>
+  Save module and if you've done it correctly, your epic new loading screen text will appear how you wrote it in
+  <br/>
+  <br/>
+  That must've been the most simple thing ever. It was? Great!
 
